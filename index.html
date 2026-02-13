@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Quest Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght:400;700;900&family=Rajdhani:wght:400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="stars2"></div>
+  
+  <div class="container">
+    <header class="header">
+      <div class="title-wrapper">
+        <h1 class="title">DAILY QUEST LOG</h1>
+        <div class="level-badge">LVL 42</div>
+      </div>
+      <p class="subtitle">Complete all quests to level up</p>
+    </header>
+
+    <div class="quest-container">
+      <div class="progress-section">
+        <div class="progress-header">
+          <span class="progress-label">QUEST PROGRESS</span>
+          <span class="progress-counter">
+            <span class="current-count">0</span> / 5
+          </span>
+        </div>
+        <div class="progress-bar-container">
+          <div class="progress-bar"></div>
+          <div class="progress-glow"></div>
+        </div>
+      </div>
+
+      <form class="quest-list">
+        <div class="quest-item">
+          <input type="checkbox" id="quest1" class="quest-checkbox">
+          <label for="quest1" class="quest-label">
+            <span class="checkbox-custom"></span>
+            <span class="quest-content">
+              <span class="quest-title">Morning Meditation</span>
+              <span class="quest-reward">+50 XP</span>
+            </span>
+          </label>
+        </div>
+
+        <div class="quest-item">
+          <input type="checkbox" id="quest2" class="quest-checkbox">
+          <label for="quest2" class="quest-label">
+            <span class="checkbox-custom"></span>
+            <span class="quest-content">
+              <span class="quest-title">Complete Workout Routine</span>
+              <span class="quest-reward">+100 XP</span>
+            </span>
+          </label>
+        </div>
+
+        <div class="quest-item">
+          <input type="checkbox" id="quest3" class="quest-checkbox">
+          <label for="quest3" class="quest-label">
+            <span class="checkbox-custom"></span>
+            <span class="quest-content">
+              <span class="quest-title">Read 30 Minutes</span>
+              <span class="quest-reward">+75 XP</span>
+            </span>
+          </label>
+        </div>
+
+        <div class="quest-item">
+          <input type="checkbox" id="quest4" class="quest-checkbox">
+          <label for="quest4" class="quest-label">
+            <span class="checkbox-custom"></span>
+            <span class="quest-content">
+              <span class="quest-title">Practice Coding</span>
+              <span class="quest-reward">+150 XP</span>
+            </span>
+          </label>
+        </div>
+
+        <div class="quest-item">
+          <input type="checkbox" id="quest5" class="quest-checkbox">
+          <label for="quest5" class="quest-label">
+            <span class="checkbox-custom"></span>
+            <span class="quest-content">
+              <span class="quest-title">Drink 8 Glasses of Water</span>
+              <span class="quest-reward">+50 XP</span>
+            </span>
+          </label>
+        </div>
+      </form>
+
+      <div class="completion-card">
+        <div class="completion-glow"></div>
+        <div class="completion-content">
+          <div class="badge-icon">★</div>
+          <h2 class="completion-title">QUEST COMPLETED!</h2>
+          <p class="completion-subtitle">All daily quests finished</p>
+          <div class="level-up">
+            <span class="level-up-text">LEVEL UP!</span>
+            <span class="xp-earned">+425 XP</span>
+          </div>
+          <div class="completion-decoration">
+            <span class="decoration-line"></span>
+            <span class="decoration-gem">◆</span>
+            <span class="decoration-line"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-stat">
+        <span class="stat-label">STREAK</span>
+        <span class="stat-value">7 DAYS</span>
+      </div>
+      <div class="footer-stat">
+        <span class="stat-label">TOTAL XP</span>
+        <span class="stat-value">12,450</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
